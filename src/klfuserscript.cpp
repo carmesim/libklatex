@@ -26,10 +26,10 @@
 #include <QDateTime>
 #include <QByteArray>
 
-#include <klfdefs.h>
-#include <klfdebug.h>
-#include <klfpobj.h>
-#include <klfdatautil.h>
+#include "klfdefs.h"
+#include "klfdebug.h"
+#include "klfpobj.h"
+#include "klfdatautil.h"
 
 #include "klfbackend.h"
 #include "klfbackend_p.h"
