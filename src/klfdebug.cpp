@@ -37,8 +37,8 @@
 #include <QApplication>
 #include <QMessageBox>
 
-#include <klfdefs.h>
-#include <klfdebug.h>
+#include "klfdefs.h"
+#include "klfdebug.h"
 
 
 

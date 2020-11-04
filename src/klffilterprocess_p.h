@@ -25,7 +25,7 @@
 #define KLFFILTERPROCESS_P_H
 
 
-#include <klffilterprocess.h>
+#include "klffilterprocess.h"
 
 
 class KLFFilterProcessBlockProcess : public KLFBlockProcess

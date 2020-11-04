@@ -26,7 +26,7 @@
 
 #include <QMap>
 
-#include <klfdefs.h>
+#include "klfdefs.h"
 
 // Note: function definitions are in klfdefs.cpp
 

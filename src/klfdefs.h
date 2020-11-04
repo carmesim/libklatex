@@ -29,6 +29,12 @@
 #include <QVariant>
 
 
+#define KLF_VERSION_STRING "4.1.0"
+#define KLF_VERSION_MIN     1
+#define KLF_VERSION_MAJ     4
+#define KLF_VERSION_REL     0
+
+
 // EXPORTING SYMBOLS TO E.G. PLUGINS ...
 #ifndef KLF_EXPORT
 #  if defined(Q_OS_WIN)
@@ -135,7 +141,7 @@ KLF_EXPORT bool klfVersionCompareLessThan(const QString& v1, const QString& v2);
 
 
 // Import debugging utilities
-#include <klfdebug.h>
+#include "klfdebug.h"
 
 
 #endif

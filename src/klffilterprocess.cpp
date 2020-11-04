@@ -25,7 +25,7 @@
 #include <QFile>
 #include <QProcess>
 
-#include <klfdefs.h>
+#include "klfdefs.h"
 
 #include "klfbackend.h"
 #include "klfblockprocess.h"

@@ -24,7 +24,7 @@
 #ifndef KLFSYSINFO_H
 #define KLFSYSINFO_H
 
-#include <klfdefs.h>
+#include "klfdefs.h"
 
 
 namespace KLFSysInfo

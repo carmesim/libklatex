@@ -26,9 +26,9 @@
 #define KLFFILTERPROCESS_H
 
 
-#include <klfdefs.h>
-#include <klfblockprocess.h>
-#include <klfbackend.h>
+#include "klfdefs.h"
+#include "klfblockprocess.h"
+#include "klfbackend.h"
 
 
 #define KLFFP_NOERR 0

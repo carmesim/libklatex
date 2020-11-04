@@ -43,9 +43,9 @@
 #include <QTextCodec>
 #include <QTemporaryDir>
 
-#include <klfutil.h>
-#include <klfsysinfo.h>
-#include <klfdatautil.h>
+#include "klfutil.h"
+#include "klfsysinfo.h"
+#include "klfdatautil.h"
 
 #include "klfblockprocess.h"
 #include "klffilterprocess.h"

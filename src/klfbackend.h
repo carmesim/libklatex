@@ -33,8 +33,8 @@
 #include <QVariant>
 
 #include "klfdefs.h"
-#include <klfpobj.h>
-#include <klfutil.h> // KLFRefPtr
+#include "klfpobj.h"
+#include "klfutil.h" // KLFRefPtr
 
 //! Definition of class \ref KLFBackend
 /** \file

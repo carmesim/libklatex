@@ -24,9 +24,9 @@
 #ifndef KLFUSERSCRIPT_H
 #define KLFUSERSCRIPT_H
 
-#include <klfdefs.h>
-#include <klfbackend.h>
-#include <klffilterprocess.h>
+#include "klfdefs.h"
+#include "klfbackend.h"
+#include "klffilterprocess.h"
 
 
 

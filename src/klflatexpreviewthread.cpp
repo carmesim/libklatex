@@ -27,7 +27,7 @@
 #include <QWaitCondition>
 #include <QQueue>
 
-#include <klfbackend.h>
+#include "klfbackend.h"
 
 #include "klflatexpreviewthread.h"
 #include "klflatexpreviewthread_p.h"

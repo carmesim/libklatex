@@ -28,8 +28,8 @@
 #include <QMutex>
 #include <QWaitCondition>
 
-#include <klfdefs.h>
-#include <klfbackend.h>
+#include "klfdefs.h"
+#include "klfbackend.h"
 
 
 struct KLFLatexPreviewThreadPrivate;

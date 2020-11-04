@@ -29,7 +29,7 @@
  * Defines the KLFBlockProcess class */
 
 
-#include <klfdefs.h>
+#include "klfdefs.h"
 
 #include <QProcess>
 #include <QString>
