@@ -1,6 +1,6 @@
 #include "src/klfbackend.h"
 #include <qfile.h>
-#include <QCoreApplication>
+#include <QtCore>
 
 int main(int argc, char ** argv)
 {
@@ -17,7 +17,7 @@ int main(int argc, char ** argv)
     input.latex = "\\int_{\\Sigma}\\!(\\vec{\\nabla}\\times\\vec u)\\,d\\vec S ="
                   " \\oint_C \\vec{u}\\cdot d\\vec r";
     input.mathmode = "\\[ ... \\]";
-    input.preamble = "\\usepackage{somerequiredpackage}\n";
+//    input.preamble = "\\usepackage{somerequiredpackage}\n";
     input.fg_color = qRgb(255, 168, 88); // beige
     input.bg_color = qRgba(0, 64, 64, 255); // dark turquoise
     input.dpi = 300;

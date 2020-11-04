@@ -288,7 +288,7 @@ KLF_EXPORT QString klfSearchPath(const QString& programName, const QString& extr
       }
     }
   }
-  return QString::null;
+  return QString();
 }
 
 KLF_EXPORT QString klfSearchPath(const QString& fname, const QStringList& paths)
@@ -310,7 +310,7 @@ KLF_EXPORT QString klfSearchPath(const QString& fname, const QStringList& paths)
       return hits[0];
     }
   }
-  return QString::null;
+  return QString();
 }
 
 KLF_EXPORT QString klfPrefixedPath(const QString& path_, const QString& ref_)
